@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+form{
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 10px,10px,10px black;
+  background: linear-gradient(cadetblue,pink);
+  border: 0px;
+  box-shadow: 7px 7px 10px black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  
+}
+form label{
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 150px;
+  padding-right: 50px;
+  text-align: left;
+}
+form div{ 
+  padding: 10px;
+}
+button{
+  border: 0px;
+  box-shadow: 5px 7px 10px black;
+  font-size: 1.2rem;
+}
+button:hover{
+  background-color: grey;
+  transition: ease(2s);
+  font-size: 1.3rem;
+}
+input{
+  border: 0px;
+  box-shadow: 5px 5px 7px black;
+}
+legend{
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.resultLabel{
+  display: inline-block;
+  width: 150px;
+}
+body{
+  background-color: beige;
+}
